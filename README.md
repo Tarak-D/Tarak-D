@@ -1,11 +1,11 @@
 # 💫 About Me:
 Hi, I'm **Tarak Dhone** 👋  
-I'm a Data Scientist with a strong interest in turning data into actionable insights using statistics, machine learning, and AI. I enjoy building data-driven solutions and making sense of complex datasets to help drive smart decisions.
+I'm a **Data Scientist & Researcher** with a strong interest in turning data into actionable insights using statistics, machine learning, and AI. I enjoy solving real-world problems with data, exploring patterns, and conducting impactful research.
 
 - 🔭 Currently working on ML models and real-time analytics projects  
-- 🌱 Learning MLOps, cloud computing (AWS, GCP), and deep learning frameworks  
+- 🧪 Research areas: predictive modeling, deep learning, data-driven decision systems  
+- 🌱 Learning MLOps, cloud computing (AWS, GCP), and scalable ML systems  
 - 💬 Ask me about data wrangling, model evaluation, or anything Python  
-- 📫 Reach me at: tarakashokrao12345@gmail.com  
 - ⚡ Fun fact: I love visualizing data almost as much as building models 🧠📈
 
 ---
@@ -43,6 +43,5 @@ I'm a Data Scientist with a strong interest in turning data into actionable insi
 
 ## 🔗 Connect with Me:
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000?style=flat-square&logo=vercel&logoColor=white)](https://yourportfolio.com)
-
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tarak-dhone-019392351/)  
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tarakashokrao12345@gmail.com)  

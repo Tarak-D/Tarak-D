@@ -32,15 +32,6 @@ I'm a **Data Scientist & Researcher** with a strong interest in turning data int
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
----
-
-## 📊 GitHub Stats:
-
-![Tarak's GitHub stats](https://github-readme-stats.vercel.app/api?username=TarakDhone&show_icons=true&theme=github_dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TarakDhone&layout=compact&theme=github_dark)
-
----
-
 ## 🔗 Connect with Me:
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tarak-dhone-019392351/)  

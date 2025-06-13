@@ -34,5 +34,4 @@ I'm a **Data Scientist & Researcher** with a strong interest in turning data int
 
 ## 🔗 Connect with Me:
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tarak-dhone-019392351/)  
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tarakashokrao12345@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tarak-dhone-019392351/)   [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tarakashokrao12345@gmail.com)  

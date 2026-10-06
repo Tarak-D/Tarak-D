@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+<defs><linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+.card{animation:up .8s ease-out both}
+.big{font:800 34px 'Segoe UI',Helvetica,Arial,sans-serif;text-anchor:middle}
+.sub{font:600 14px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0;text-anchor:middle;letter-spacing:1px}
+.li{font:400 13.5px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#cbd5e1}
+.g{animation:gl 3.2s ease-in-out infinite}
+.sw{animation:sweep 5.5s ease-in-out infinite}
+.dot{animation:pl 2.4s ease-in-out infinite}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes gl{0%,100%{stroke-opacity:.3}50%{stroke-opacity:1}}
+@keyframes sweep{0%{transform:translateX(-260px)}55%,100%{transform:translateX(260px)}}
+@keyframes pl{0%,100%{opacity:.4}50%{opacity:1}}
+</style>
+<g class="card" style="animation-delay:0.0s">
+<clipPath id="p0"><rect x="8" y="8" width="236" height="314" rx="16"/></clipPath>
+<rect class="g" x="8" y="8" width="236" height="314" rx="16" fill="#0b1220" stroke="#a78bfa" stroke-width="1.8" style="animation-delay:0.0s"/>
+<g clip-path="url(#p0)"><rect class="sw" x="8" y="8" width="110" height="314" fill="url(#sh)" style="animation-delay:0.0s"/></g>
+<circle cx="126" cy="66" r="38" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".6"/>
+<text class="big" x="126" y="78" fill="#a78bfa" style="font-size:32px">.NET</text>
+<text class="sub" x="126" y="136">SOFTWARE ENGINEERING</text>
+<rect x="86" y="148" width="80" height="3" rx="1.5" fill="#a78bfa"/>
+<circle class="dot" cx="36" cy="180" r="4" fill="#a78bfa" style="animation-delay:0.0s"/><text class="li" x="50" y="184">C# programming</text>
+<circle class="dot" cx="36" cy="212" r="4" fill="#a78bfa" style="animation-delay:0.4s"/><text class="li" x="50" y="216">Application development</text>
+<circle class="dot" cx="36" cy="244" r="4" fill="#a78bfa" style="animation-delay:0.8s"/><text class="li" x="50" y="248">Clean, structured code</text>
+<circle class="dot" cx="36" cy="276" r="4" fill="#a78bfa" style="animation-delay:1.2000000000000002s"/><text class="li" x="50" y="280">Backend logic</text>
+</g>
+<g class="card" style="animation-delay:0.2s">
+<clipPath id="p1"><rect x="256" y="8" width="236" height="314" rx="16"/></clipPath>
+<rect class="g" x="256" y="8" width="236" height="314" rx="16" fill="#0b1220" stroke="#38bdf8" stroke-width="1.8" style="animation-delay:0.5s"/>
+<g clip-path="url(#p1)"><rect class="sw" x="256" y="8" width="110" height="314" fill="url(#sh)" style="animation-delay:0.8s"/></g>
+<circle cx="374" cy="66" r="38" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".6"/>
+<text class="big" x="374" y="78" fill="#38bdf8" style="font-size:26px">AI &amp; DS</text>
+<text class="sub" x="374" y="136">DATA SCIENCE</text>
+<rect x="334" y="148" width="80" height="3" rx="1.5" fill="#38bdf8"/>
+<circle class="dot" cx="284" cy="180" r="4" fill="#38bdf8" style="animation-delay:0.0s"/><text class="li" x="298" y="184">Data wrangling and EDA</text>
+<circle class="dot" cx="284" cy="212" r="4" fill="#38bdf8" style="animation-delay:0.4s"/><text class="li" x="298" y="216">Statistics and analytics</text>
+<circle class="dot" cx="284" cy="244" r="4" fill="#38bdf8" style="animation-delay:0.8s"/><text class="li" x="298" y="248">Visualization and dashboards</text>
+<circle class="dot" cx="284" cy="276" r="4" fill="#38bdf8" style="animation-delay:1.2000000000000002s"/><text class="li" x="298" y="280">Pandas · NumPy · Tableau</text>
+</g>
+<g class="card" style="animation-delay:0.4s">
+<clipPath id="p2"><rect x="504" y="8" width="236" height="314" rx="16"/></clipPath>
+<rect class="g" x="504" y="8" width="236" height="314" rx="16" fill="#0b1220" stroke="#34d399" stroke-width="1.8" style="animation-delay:1.0s"/>
+<g clip-path="url(#p2)"><rect class="sw" x="504" y="8" width="110" height="314" fill="url(#sh)" style="animation-delay:1.6s"/></g>
+<circle cx="622" cy="66" r="38" fill="#34d399" fill-opacity=".12" stroke="#34d399" stroke-opacity=".6"/>
+<text class="big" x="622" y="78" fill="#34d399" style="font-size:26px">AI / ML</text>
+<text class="sub" x="622" y="136">INTELLIGENT SYSTEMS</text>
+<rect x="582" y="148" width="80" height="3" rx="1.5" fill="#34d399"/>
+<circle class="dot" cx="532" cy="180" r="4" fill="#34d399" style="animation-delay:0.0s"/><text class="li" x="546" y="184">Machine learning models</text>
+<circle class="dot" cx="532" cy="212" r="4" fill="#34d399" style="animation-delay:0.4s"/><text class="li" x="546" y="216">Deep learning</text>
+<circle class="dot" cx="532" cy="244" r="4" fill="#34d399" style="animation-delay:0.8s"/><text class="li" x="546" y="248">NLP and time-series</text>
+<circle class="dot" cx="532" cy="276" r="4" fill="#34d399" style="animation-delay:1.2000000000000002s"/><text class="li" x="546" y="280">TensorFlow · PyTorch</text>
+</g>
+<g class="card" style="animation-delay:0.6000000000000001s">
+<clipPath id="p3"><rect x="752" y="8" width="236" height="314" rx="16"/></clipPath>
+<rect class="g" x="752" y="8" width="236" height="314" rx="16" fill="#0b1220" stroke="#facc15" stroke-width="1.8" style="animation-delay:1.5s"/>
+<g clip-path="url(#p3)"><rect class="sw" x="752" y="8" width="110" height="314" fill="url(#sh)" style="animation-delay:2.4000000000000004s"/></g>
+<circle cx="870" cy="66" r="38" fill="#facc15" fill-opacity=".12" stroke="#facc15" stroke-opacity=".6"/>
+<text class="big" x="870" y="78" fill="#facc15" style="font-size:32px">DEV</text>
+<text class="sub" x="870" y="136">FULL-STACK BUILDING</text>
+<rect x="830" y="148" width="80" height="3" rx="1.5" fill="#facc15"/>
+<circle class="dot" cx="780" cy="180" r="4" fill="#facc15" style="animation-delay:0.0s"/><text class="li" x="794" y="184">Python · JavaScript · SQL</text>
+<circle class="dot" cx="780" cy="212" r="4" fill="#facc15" style="animation-delay:0.4s"/><text class="li" x="794" y="216">APIs: FastAPI</text>
+<circle class="dot" cx="780" cy="244" r="4" fill="#facc15" style="animation-delay:0.8s"/><text class="li" x="794" y="248">Web UI: React</text>
+<circle class="dot" cx="780" cy="276" r="4" fill="#facc15" style="animation-delay:1.2000000000000002s"/><text class="li" x="794" y="280">Git · Docker · Cloud</text>
+</g>
+</svg>

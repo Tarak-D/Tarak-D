@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="0.5" stop-color="#0d2a47"/>
+      <stop offset="1" stop-color="#0b5563"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1000" height="300" rx="16"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .t1{font:700 58px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;animation:rise 1.2s ease-out both}
+    .t2{font:500 22px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#cbd5e1;animation:rise 1.2s .5s ease-out both}
+    .t3{font:400 16px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8;animation:rise 1.2s 1s ease-out both}
+    .bar{transform-origin:62px 0;animation:grow 1.4s .3s ease-out both}
+    .flow{stroke-dasharray:6 8;animation:dash 1.6s linear infinite}
+    .n{animation:pulse 2.6s ease-in-out infinite}
+    .n2{animation-delay:.6s}.n3{animation-delay:1.2s}.n4{animation-delay:1.8s}
+    .sh{animation:sweep 6s ease-in-out infinite}
+    .fl{animation:float 5s ease-in-out infinite}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes dash{to{stroke-dashoffset:-28}}
+    @keyframes pulse{0%,100%{opacity:.55;r:6}50%{opacity:1;r:9}}
+    @keyframes sweep{0%{transform:translateX(-1000px)}60%,100%{transform:translateX(1000px)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <g opacity=".07" stroke="#fff"><path d="M0 60H1000M0 120H1000M0 180H1000M0 240H1000M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300"/></g>
+    <rect class="sh" x="0" y="0" width="300" height="300" fill="url(#shine)"/>
+
+    <!-- neural network -->
+    <g class="fl" filter="url(#glow)">
+      <g stroke="#38bdf8" stroke-width="1.4" stroke-opacity=".55" class="flow" fill="none">
+        <path d="M690 60L790 100M690 60L790 200M690 150L790 100M690 150L790 200M690 240L790 100M690 240L790 200"/>
+        <path d="M790 100L900 70M790 100L900 150M790 100L900 230M790 200L900 70M790 200L900 150M790 200L900 230"/>
+      </g>
+      <circle class="n"      cx="690" cy="60"  r="7" fill="#38bdf8"/>
+      <circle class="n n2"   cx="690" cy="150" r="7" fill="#38bdf8"/>
+      <circle class="n n3"   cx="690" cy="240" r="7" fill="#38bdf8"/>
+      <circle class="n n2"   cx="790" cy="100" r="7" fill="#34d399"/>
+      <circle class="n n4"   cx="790" cy="200" r="7" fill="#34d399"/>
+      <circle class="n n3"   cx="900" cy="70"  r="7" fill="#e2e8f0"/>
+      <circle class="n"      cx="900" cy="150" r="7" fill="#e2e8f0"/>
+      <circle class="n n4"   cx="900" cy="230" r="7" fill="#e2e8f0"/>
+    </g>
+
+    <text class="t1" x="60" y="115">Tarak Dhone</text>
+    <rect class="bar" x="62" y="134" width="150" height="4" rx="2" fill="url(#acc)"/>
+    <text class="t2" x="60" y="182">Developer  ·  .NET  ·  AI &amp; Data Science  ·  AI / ML</text>
+    <text class="t3" x="60" y="220">Python  |  C#  |  Machine Learning  |  Deep Learning  |  NLP</text>
+    <text class="t3" x="60" y="246">Building intelligent systems that turn data into decisions</text>
+  </g>
+</svg>

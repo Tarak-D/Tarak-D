@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+<defs>
+<linearGradient id="bg2" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#0b5563"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<linearGradient id="fr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#10243d"/></linearGradient>
+</defs>
+<style>
+.code{font:15px 'Fira Code',Consolas,Menlo,monospace}
+.ln{font:13px 'Fira Code',Consolas,Menlo,monospace;fill:#475569;text-anchor:end;transform:translateX(12px)}
+.ch{font:700 15px 'Fira Code',Consolas,Menlo,monospace}
+.fl{animation:fl 4s ease-in-out infinite}
+.bar{animation:gr 3s ease-out infinite alternate}
+.cur{animation:bl 1s steps(1) infinite}
+.lab{font:600 13px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8}
+.dr{stroke-dasharray:420;animation:dw 4s ease-in-out infinite alternate}
+@keyframes t0{0%,4%{transform:scaleX(0)}13%,92%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}.k0{animation:t0 14s steps(34,end) infinite}
+@keyframes t1{0%,17%{transform:scaleX(0)}26%,92%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}.k1{animation:t1 14s steps(34,end) infinite}
+@keyframes t2{0%,30%{transform:scaleX(0)}39%,92%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}.k2{animation:t2 14s steps(34,end) infinite}
+@keyframes t3{0%,43%{transform:scaleX(0)}52%,92%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}.k3{animation:t3 14s steps(34,end) infinite}
+@keyframes t4{0%,56%{transform:scaleX(0)}65%,92%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}.k4{animation:t4 14s steps(34,end) infinite}
+@keyframes t5{0%,69%{transform:scaleX(0)}78%,92%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}.k5{animation:t5 14s steps(34,end) infinite}
+
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes gr{from{transform:scaleY(.15)}to{transform:scaleY(1)}}
+@keyframes bl{50%{opacity:0}}
+@keyframes dw{from{stroke-dashoffset:420}to{stroke-dashoffset:0}}
+</style>
+<!-- editor window -->
+<rect x="10" y="10" width="560" height="320" rx="14" fill="url(#fr)" stroke="#1e3a5f"/>
+<rect x="10" y="10" width="560" height="38" rx="14" fill="#13203a"/><rect x="10" y="30" width="560" height="18" fill="#13203a"/>
+<circle cx="34" cy="29" r="6" fill="#ef4444"/><circle cx="56" cy="29" r="6" fill="#f59e0b"/><circle cx="78" cy="29" r="6" fill="#22c55e"/>
+<text x="290" y="34" text-anchor="middle" class="lab">model.py</text>
+<clipPath id="cl0"><rect class="k0" x="64" y="78" width="470" height="26" style="transform-box:fill-box;transform-origin:left"/></clipPath>
+<text class="code" x="64" y="96" xml:space="preserve" clip-path="url(#cl0)"><tspan fill="#c084fc">import</tspan><tspan fill="#e2e8f0"> pandas </tspan><tspan fill="#c084fc">as</tspan><tspan fill="#e2e8f0"> pd</tspan></text>
+<text class="ln" x="40" y="96">1</text>
+<clipPath id="cl1"><rect class="k1" x="64" y="108" width="470" height="26" style="transform-box:fill-box;transform-origin:left"/></clipPath>
+<text class="code" x="64" y="126" xml:space="preserve" clip-path="url(#cl1)"><tspan fill="#c084fc">from</tspan><tspan fill="#e2e8f0"> sklearn.ensemble </tspan><tspan fill="#c084fc">import</tspan><tspan fill="#facc15"> RandomForestClassifier</tspan></text>
+<text class="ln" x="40" y="126">2</text>
+<clipPath id="cl2"><rect class="k2" x="64" y="138" width="470" height="26" style="transform-box:fill-box;transform-origin:left"/></clipPath>
+<text class="code" x="64" y="156" xml:space="preserve" clip-path="url(#cl2)"><tspan fill="#e2e8f0">df = pd.read_csv(</tspan><tspan fill="#34d399">"data.csv"</tspan><tspan fill="#e2e8f0">)</tspan></text>
+<text class="ln" x="40" y="156">3</text>
+<clipPath id="cl3"><rect class="k3" x="64" y="168" width="470" height="26" style="transform-box:fill-box;transform-origin:left"/></clipPath>
+<text class="code" x="64" y="186" xml:space="preserve" clip-path="url(#cl3)"><tspan fill="#e2e8f0">model = RandomForestClassifier()</tspan></text>
+<text class="ln" x="40" y="186">4</text>
+<clipPath id="cl4"><rect class="k4" x="64" y="198" width="470" height="26" style="transform-box:fill-box;transform-origin:left"/></clipPath>
+<text class="code" x="64" y="216" xml:space="preserve" clip-path="url(#cl4)"><tspan fill="#e2e8f0">model.fit(X_train, y_train)</tspan></text>
+<text class="ln" x="40" y="216">5</text>
+<clipPath id="cl5"><rect class="k5" x="64" y="228" width="470" height="26" style="transform-box:fill-box;transform-origin:left"/></clipPath>
+<text class="code" x="64" y="246" xml:space="preserve" clip-path="url(#cl5)"><tspan fill="#38bdf8">print(</tspan><tspan fill="#34d399">"Data -> Insights"</tspan><tspan fill="#38bdf8">)</tspan></text>
+<text class="ln" x="40" y="246">6</text>
+
+<rect class="cur" x="64" y="260" width="9" height="20" fill="#38bdf8"/>
+<!-- chart panel -->
+<rect x="600" y="100" width="390" height="230" rx="14" fill="url(#fr)" stroke="#1e3a5f"/>
+<text x="624" y="128" class="lab">Model performance</text>
+<rect class="bar" x="632" y="260" width="34" height="40" rx="5" fill="url(#bg2)" style="animation-delay:0.2s;transform-box:fill-box;transform-origin:bottom"/><rect class="bar" x="684" y="230" width="34" height="70" rx="5" fill="url(#bg2)" style="animation-delay:0.35s;transform-box:fill-box;transform-origin:bottom"/><rect class="bar" x="736" y="245" width="34" height="55" rx="5" fill="url(#bg2)" style="animation-delay:0.5s;transform-box:fill-box;transform-origin:bottom"/><rect class="bar" x="788" y="205" width="34" height="95" rx="5" fill="url(#bg2)" style="animation-delay:0.6499999999999999s;transform-box:fill-box;transform-origin:bottom"/><rect class="bar" x="840" y="220" width="34" height="80" rx="5" fill="url(#bg2)" style="animation-delay:0.8s;transform-box:fill-box;transform-origin:bottom"/><rect class="bar" x="892" y="180" width="34" height="120" rx="5" fill="url(#bg2)" style="animation-delay:0.95s;transform-box:fill-box;transform-origin:bottom"/>
+<polyline class="dr" points="649,255 701,225 753,238 805,190 857,205 909,170" fill="none" stroke="#facc15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="fl" style="animation-delay:0s"><rect x="616" y="40" width="48" height="40" rx="10" fill="#0b1220" stroke="#38bdf8"/><text x="640" y="66" text-anchor="middle" class="ch" fill="#38bdf8">{ }</text></g><g class="fl" style="animation-delay:0.7s"><rect x="736" y="16" width="48" height="40" rx="10" fill="#0b1220" stroke="#34d399"/><text x="760" y="42" text-anchor="middle" class="ch" fill="#34d399">&lt;/&gt;</text></g><g class="fl" style="animation-delay:1.4s"><rect x="856" y="44" width="48" height="40" rx="10" fill="#0b1220" stroke="#facc15"/><text x="880" y="70" text-anchor="middle" class="ch" fill="#facc15">Σ</text></g><g class="fl" style="animation-delay:2.1s"><rect x="936" y="20" width="48" height="40" rx="10" fill="#0b1220" stroke="#a78bfa"/><text x="960" y="46" text-anchor="middle" class="ch" fill="#a78bfa">py</text></g>
+</svg>

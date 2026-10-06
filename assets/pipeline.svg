@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <path id="route" d="M110 85H890"/>
+  </defs>
+  <style>
+    .b{fill:#0b1220;stroke:url(#g);stroke-width:1.8}
+    .tt{font:700 16px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;text-anchor:middle}
+    .ss{font:400 12px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8;text-anchor:middle}
+    .ln{stroke:#38bdf8;stroke-opacity:.6;stroke-width:2;stroke-dasharray:6 6;animation:d 1.2s linear infinite}
+    .bx{animation:pop 4s ease-in-out infinite}
+    @keyframes d{to{stroke-dashoffset:-24}}
+    @keyframes pop{0%,100%{opacity:.85}50%{opacity:1}}
+  </style>
+  <line class="ln" x1="110" y1="85" x2="890" y2="85"/>
+  <g class="bx"><rect class="b" x="20" y="45" width="170" height="80" rx="12"/><text class="tt" x="105" y="82">Data</text><text class="ss" x="105" y="102">collect · clean · EDA</text></g>
+  <g class="bx" style="animation-delay:.6s"><rect class="b" x="240" y="45" width="170" height="80" rx="12"/><text class="tt" x="325" y="82">Features</text><text class="ss" x="325" y="102">engineer · select</text></g>
+  <g class="bx" style="animation-delay:1.2s"><rect class="b" x="460" y="45" width="170" height="80" rx="12"/><text class="tt" x="545" y="82">Models</text><text class="ss" x="545" y="102">ML · BiLSTM · NLP</text></g>
+  <g class="bx" style="animation-delay:1.8s"><rect class="b" x="680" y="45" width="140" height="80" rx="12"/><text class="tt" x="750" y="82">Evaluate</text><text class="ss" x="750" y="102">AUROC · F1</text></g>
+  <g class="bx" style="animation-delay:2.4s"><rect class="b" x="850" y="45" width="130" height="80" rx="12"/><text class="tt" x="915" y="82">Deploy</text><text class="ss" x="915" y="102">apps · APIs</text></g>
+  <g fill="#facc15">
+    <circle r="6"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+    <circle r="6" opacity=".7"><animateMotion dur="5s" begin="1.6s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+    <circle r="6" opacity=".5"><animateMotion dur="5s" begin="3.2s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+  </g>
+</svg>

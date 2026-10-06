@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280">
+  <style>
+    .m{font:15px 'Fira Code',Consolas,Menlo,monospace}
+    .p{fill:#34d399}.c{fill:#e2e8f0}.o{fill:#38bdf8}.d{fill:#94a3b8}
+    .l1{animation:a1 14s infinite}.l2{animation:a2 14s infinite}.l3{animation:a3 14s infinite}.l4{animation:a4 14s infinite}.l5{animation:a5 14s infinite}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes a1{0%,2%{opacity:0}5%,92%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a2{0%,14%{opacity:0}17%,92%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a3{0%,28%{opacity:0}31%,92%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a4{0%,44%{opacity:0}47%,92%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a5{0%,60%{opacity:0}63%,92%{opacity:1}97%,100%{opacity:0}}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect width="820" height="280" rx="12" fill="#0b1220" stroke="#1e3a5f"/>
+  <rect width="820" height="36" rx="12" fill="#13203a"/><rect y="20" width="820" height="16" fill="#13203a"/>
+  <circle cx="22" cy="18" r="6" fill="#ef4444"/><circle cx="44" cy="18" r="6" fill="#f59e0b"/><circle cx="66" cy="18" r="6" fill="#22c55e"/>
+  <text x="410" y="23" text-anchor="middle" class="m d" font-size="13">tarak@dev: ~/profile</text>
+  <g class="m">
+    <g class="l1"><text x="24" y="70"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text><text x="24" y="92" class="o">tarak_dhone</text></g>
+    <g class="l2"><text x="24" y="122"><tspan class="p">$ </tspan><tspan class="c">cat role.txt</tspan></text><text x="24" y="144" class="o">Developer | .NET | AI &amp; Data Science | AI/ML</text></g>
+    <g class="l3"><text x="24" y="174"><tspan class="p">$ </tspan><tspan class="c">ls stack/</tspan></text><text x="24" y="196" class="o">python  c#/.net  sql  r  pytorch  tensorflow  scikit-learn  fastapi</text></g>
+    <g class="l4"><text x="24" y="226"><tspan class="p">$ </tspan><tspan class="c">cat status.txt</tspan></text><text x="24" y="248" class="o">machine learning · data science · AI applications</text></g>
+    <g class="l5"><text x="24" y="270"><tspan class="p">$ </tspan><tspan class="cur c">█</tspan></text></g>
+  </g>
+</svg>

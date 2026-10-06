@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130">
+<defs><linearGradient id="pb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d2a47"/><stop offset="1" stop-color="#0b5563"/></linearGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect x="5" y="5" width="990" height="120" rx="16"/></clipPath></defs>
+<style>
+.a{font:700 12px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#38bdf8;letter-spacing:3px}
+.t{font:700 21px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff}
+.s{font:400 14px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#cbd5e1}
+.bk{animation:b 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 5s ease-in-out infinite}
+.g{animation:g 3s ease-in-out infinite}
+@keyframes b{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-6px) rotate(4deg)}}
+@keyframes sw{0%{transform:translateX(-300px)}60%,100%{transform:translateX(1100px)}}
+@keyframes g{0%,100%{stroke-opacity:.3}50%{stroke-opacity:1}}
+</style>
+<rect class="g" x="5" y="5" width="990" height="120" rx="16" fill="url(#pb)" stroke="#38bdf8" stroke-width="1.6"/>
+<g clip-path="url(#c)"><rect class="sw" x="0" y="0" width="240" height="130" fill="url(#sh)"/></g>
+<g class="bk"><rect x="38" y="30" width="56" height="70" rx="6" fill="#38bdf8"/><rect x="38" y="30" width="10" height="70" rx="3" fill="#0b5563"/><rect x="56" y="46" width="30" height="4" rx="2" fill="#0b1220"/><rect x="56" y="58" width="24" height="4" rx="2" fill="#0b1220"/></g>
+<text class="a" x="125" y="44">PUBLISHED AUTHOR</text>
+<text class="t" x="125" y="72">Aquabot: Smart River Clean-up with AI and Solar Tech</text>
+<text class="s" x="125" y="96">Using Metal Nanotechnology  ·  Notion Press, 2025</text>
+</svg>
